@@ -1,5 +1,5 @@
 ##### Summer 2022 Oracle Enablement Blog
-![](images/blog_post_20.png)
+![![](images/blog_post_20.png)](images/o-sponsorship.png)
 
 #### Digital Transformation Means Companies Need Multicloud and NetFoundry is here to help.
 ![](images/NFWhiteBG.jpg)
