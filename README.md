@@ -37,7 +37,7 @@ On Date TBA, NetFoundry will present a live demonstration of how to enable OCi c
 
 [NetFoundry support guide -- Configure NetFoundry Zero Trust Networking for Oracle Autonomous Database (ADW) private endpoint access.](https://support.netfoundry.io/hc/en-us/articles/360055772252-Configure-NetFoundry-Zero-Trust-Networking-for-Oracle-Autonomous-Database-ADW-private-endpoint-access-)
 
-[NetFoundry support guide -- Deploy NetFoundry Edge Routers in OCI from Marketplace image. tenancy.](https://support.netfoundry.io/hc/en-us/articles/360054992952-Deployment-Guide-for-Oracle-Cloud-Edge-Routers)
+[NetFoundry support guide -- Deploy NetFoundry Edge Routers in OCI from Marketplace image in your own tenancy.](https://support.netfoundry.io/hc/en-us/articles/360054992952-Deployment-Guide-for-Oracle-Cloud-Edge-Routers)
 
 
 The average enterprise runs hundreds or even thousands of these applications and microservices, and they all “need network” and up and coming “micronets”. Whether internally-facing for employees or externally facing for customers, partners, suppliers, increasingly these applications are running in public cloud environments including Amazon Web Services, Microsoft Azure, and Google Cloud Platform and as demand continues to increase, so does competition. The economics are fascinating, with a great deal being written about the true cost of multicloud – but what about the true cost of network connecting those clouds? How private do those networks need to be, how performant, how secure, and what are the options? Multi Cloud with NetFoundry example below:
