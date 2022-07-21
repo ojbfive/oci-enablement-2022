@@ -49,13 +49,10 @@ The average enterprise runs hundreds or even thousands of these applications and
 Stay Ahead of the Multicloud Storm
 While there are many issues to wrestle to the ground to find the “new normal” for thousands of enterprises growing their developer activities in house – and their DevOps teams to support those activities – in coordination with IT – there are new ways to manage cloud environments, which is what led NetFoundry to design our platform to abstract networks away from infrastructure, making multicloud connections simple. Our platform helps enterprises improve service, manage multiple clouds and multi-application environments more efficiently, and reduce the costs associated with inflexible and expensive enterprise network interconnections such as MPLS, SD-WAN, and traditional VPN. The NetFoundry Platform enables instant creation of edge-to-cloud and cloud-to-cloud connection solutions across the Internet using any Internet access provider, increasing business velocity while eliminating the costs of expanding private networks and infrastructure to each cloud.
 
-##### Part 1. OCI Autonomous Database Access
+##### Part 1. OCI Autonomous Database connectivity with NetFoundry Platform
 
 
 For the first demonstration, we will use the NetFoundry platform to connect to an Autonomous Database Solution in Oracle Cloud. This secure solution will use a private endpoint and have no public network access. We will access the database remotely over the NetFoundry network using the [Windows Ziti Desktop Edge.](https://github.com/openziti/desktop-edge-win/releases/tag/2.1.2)
-
-
-
 
 ![](images/ADB.png)
 
@@ -65,11 +62,37 @@ For the first demonstration, we will use the NetFoundry platform to connect to a
 
 
 
-##### Part 2. Private API and application access for Kubernetes OKE.
 
+
+
+
+
+
+##### Part 2. Private API and application access for Kubernetes OKE.
+##### Before you begin
+
+1. [Install kubectl, the command line interface for Kubernetes](https://kubernetes.io/docs/tasks/tools/)
+2. Create a Kubernetes cluster with at least one worker node.
+3. [Install Helm, the package manager for Kubernetes.](https://helm.sh/docs/intro/quickstart/)
+4. [Sign up for the free tier to use the NetFoundry console to orchestrate your Ziti network.](https://nfconsole.io/signup?stepName=chosePlan&stepNum=1)
+
+##### Create a NetFoundry Network for Kubernetes remote access.
+
+1.  In OCI, create your Kubernetes cluster with Public API. (Will change to private later) 
+2. Create Network
+    - Create Edge Routers for transit.
+    - Create Edge Router policy to allow endpoints to transit network.
+3. Create Endpoints
+4. Create Services API and other.
+5. Create AppWAN to expose services to endpoints.
+6. Install Windows/Mac Ziti Desktop Edge
+7. From Kubectl interface, run kubectl get nodes -v6 to verify KUBECONFIG is using private API IP address.
 
 
 ![](images/kube.png)
+
+
+
 
 
 If you’re interested in learning more about how NetFoundry makes multicloud connectivity simple, take us for a free test drive. Click [here](https://netfoundry.io/pricing/) to get started.
