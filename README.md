@@ -49,7 +49,7 @@ The average enterprise runs hundreds or even thousands of these applications and
 Stay Ahead of the Multicloud Storm
 While there are many issues to wrestle to the ground to find the “new normal” for thousands of enterprises growing their developer activities in house – and their DevOps teams to support those activities – in coordination with IT – there are new ways to manage cloud environments, which is what led NetFoundry to design our platform to abstract networks away from infrastructure, making multicloud connections simple. Our platform helps enterprises improve service, manage multiple clouds and multi-application environments more efficiently, and reduce the costs associated with inflexible and expensive enterprise network interconnections such as MPLS, SD-WAN, and traditional VPN. The NetFoundry Platform enables instant creation of edge-to-cloud and cloud-to-cloud connection solutions across the Internet using any Internet access provider, increasing business velocity while eliminating the costs of expanding private networks and infrastructure to each cloud.
 
-**##### Part 1. OCI Autonomous Database Access**
+##### Part 1. OCI Autonomous Database Access
 
 
 For the first demonstration, we will use the NetFoundry platform to connect to an Autonomous Database Solution in Oracle Cloud. This secure solution will use a private endpoint and have no public network access. We will access the database remotely over the NetFoundry network using the [Windows Ziti Desktop Edge.](https://github.com/openziti/desktop-edge-win/releases/tag/2.1.2)
