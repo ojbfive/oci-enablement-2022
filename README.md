@@ -54,6 +54,16 @@ While there are many issues to wrestle to the ground to find the “new normal�
 
 For the first demonstration, we will use the NetFoundry platform to connect to an Autonomous Database Solution in Oracle Cloud. This secure solution will use a private endpoint and have no public network access. We will access the database remotely over the NetFoundry network using the [Windows Ziti Desktop Edge.](https://github.com/openziti/desktop-edge-win/releases/tag/2.1.2)
 
+1. In OCI, create your autonomous database with the private endpoint.
+2. In NetFoundry, create the network and NetFoundry-hosted Edge Router and set the Edge Router policy.
+3. Create the customer-hosted Edge Router in the web console.
+4. From Oracle Cloud Marketplace, create the NetFoundry Edge Router in the same VCN or subnet as the autonomous database. If boot script doesn’t complete it, register the Edge Router from the CLI.
+5. In NetFoundry, create and install the endpoint software on the client host (laptop).
+6. Create the Edge Router-hosted service for your autonomous database.
+7. Create the AppWAN with your endpoints and the Autonomous Database Service.
+8. In the Oracle Database client, test your connectivity to database over NetFoundry.
+
+
 ![](images/ADB.png)
 
 
