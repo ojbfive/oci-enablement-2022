@@ -102,7 +102,7 @@ For the first demonstration, we will use the NetFoundry platform to connect to a
 ![](images/kube.png)
 
 
-
+**End state Multi-Cloud diagram (coming soon)**
 
 
 If you’re interested in learning more about how NetFoundry makes multicloud connectivity simple, take us for a free test drive. Click [here](https://netfoundry.io/pricing/) to get started.
